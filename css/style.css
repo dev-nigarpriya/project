@@ -1,0 +1,845 @@
+* {
+    margin                  : 0;
+    padding                 : 0;
+}
+
+a {
+    text-decoration         : none;
+
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left            : 0;
+    margin-bottom           : 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height             : 0.8;
+    margin-bottom           : 0;
+}
+
+/* Common root */
+:root {
+    --main_color            : #8454F5;
+    --secondary_color       : #29313D;
+    --primary_font          : 'Open Sans', sans-serif;
+    --secondary_font        : 'Nunito', sans-serif;
+    --regular               : 400;
+    --medium                : 500;
+    --semibold              : 600;
+    --bold                  : 700;
+    
+}
+         
+
+/* Navbar part css */
+
+.navbar {
+    
+    padding-top             : 30px;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    padding-right           : 15px;
+    padding-left            : 15px;
+    font-family             : var(--primary_font);
+    font-weight             : var(--semibold);
+    font-size               : 18px;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+
+}
+
+.nav_btn button{
+
+    padding                 : 14px 28px;
+    background-color        : var(--main_color);
+    border-radius           : 18px;
+    border                  : none;
+    font-family             : var(--secondary_font);
+    font-size               : 18px;
+    font-weight             : var(--semibold);
+    color                   : #fff;
+    text-transform          : capitalize;
+}
+
+/* Banner part css */
+
+.banner_content{
+
+    padding-top             : 130px;
+
+}
+
+.banner_left h1{
+
+    padding-top             : 100px;
+    width                   : 720px;
+    font-family             : var(--primary_font);
+    font-size               : 64px;
+    font-weight             : var(--bold);
+    line-height             : 87px;
+    text-transform          : capitalize;
+
+}
+
+.banner_left p{
+   
+    margin-top              : 40px;
+    padding-left            : 20px;
+    font-family             : var(--secondary_font);
+    font-size               : 18px;
+    font-weight             : var(--regular);
+    line-height             : 200%;
+    text-transform          : capitalize;
+    border-left             : 5px solid #FFC556;
+
+}
+
+.banner_sing_up{
+
+    position                : relative;
+    margin-top              : 48px;
+    width                   : 630px;
+    background-color        : rgba(132, 84, 245, 0.05);
+    border-radius           : 24px;
+    margin-bottom           : 100px;
+
+}
+
+#banner_email_form{
+    
+    width                   : 320px;
+    padding                 : 37px 0 37px 28px;
+    border                  : none;
+    background              : transparent;
+
+}
+
+.banner_sing_up button{
+  
+    position                : absolute;
+    right                   : 15px;
+    top                     : 15px;
+    bottom                  : 15px;
+    padding                 : 20px 48px;
+    border                  : none;
+    background-color        : var(--main_color);
+    border-radius           : 18px;
+    font-family             : var(--secondary_font);
+    font-size               : 20px;
+    font-weight             : var(--semibold);
+    color                   : #fff;
+    text-transform          : capitalize;
+ 
+}
+
+.banner_right{
+    
+    padding-bottom          : 70px;
+
+}
+
+/* wapkiu part css */
+
+#wapkiu{
+
+    padding                 : 133px 0;
+
+}
+
+/* solutions part css */
+
+#solutions{
+
+    padding                 : 120px 0;
+
+}
+
+.solition_heading_left h2{
+
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 56px;
+    line-height             : 140%;
+    text-transform          : capitalize;
+    color                   : var(--secondary_color);
+    padding-bottom          : 80px;
+
+}
+
+.solition_heading_right p{
+
+    margin-top              : 22px;
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 18px;
+    line-height             : 200%;
+    text-transform          : capitalize;
+    color                   : var(--secondary_color);
+    border-left             : 5px solid #FFC556;
+    padding-left            : 20px;
+
+}
+
+.solitions_box{
+    
+    background-color        : #fff;
+    border-radius           : 30px;
+    border                  : 1px solid rgba(132, 84, 245, 0.4);
+    transition              : all linear 0.3s;
+
+}
+
+.box_icon{
+
+    width                   : 70px;
+    height                  : 70px;
+    background-color       : rgba(96, 120, 255, 0.15);
+    border-radius           : 14px;
+    margin                  : 24px 14px 16px 24px;
+
+}
+
+.box_heading h3{
+
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 28px;
+    color                   : var(--secondary_color);
+    padding                 : 40px 0px 31px 0px;
+    text-transform          : capitalize;
+    transition              : all linear 0.3s;
+
+}
+
+.box_content p{
+
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 18px;
+    line-height             : 180%;
+    color                   : var(--secondary_color);
+    padding                 : 0px 10px 24px 10px ;
+    text-transform          : capitalize;
+    transition              : all linear 0.3s;
+
+}
+.box_content a{
+
+    display                 : inline-block;
+    font-family             : var(--secondary_font);
+    font-weight             : var(--semibold);
+    font-size               : 20px;
+    color                   : var(--secondary_color);
+    padding-left            : 10px;
+    padding-bottom          : 48px;
+    transition              : all linear 0.3s;
+   
+}
+
+.solitions_box:hover{
+
+    background-color        : var(--main_color);
+}
+
+.solitions_box:hover h2{
+    
+    color                   : #FCFCFE;
+    
+}
+
+.solitions_box:hover p{
+    
+    color                   : #FCFCFE;
+
+}
+
+.solitions_box:hover a{
+    
+    color                   : #FCFCFE;
+
+}
+
+/* Goals part css */
+
+#goals{
+
+    padding                 : 100px 0;
+
+}
+
+.goals_right h2{
+
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 56px;
+    line-height             : 140%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+
+}
+.goals_right p{
+
+    padding                 : 24px 62px 48px 0px;
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 18px;
+    line-height             : 180%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+
+}
+
+.goals_right_btn button{
+
+    padding                 : 20px 48px;
+    border                  : none;
+    background-color        : var(--main_color);
+    border-radius           : 18px;
+    font-family             : var(--secondary_font);
+    font-size               : 20px;
+    font-weight             : var(--semibold);
+    color                   : #fff;
+    text-transform          : capitalize;
+ 
+}
+
+/* distribution part css */
+
+.distribution_wrapper{
+
+    background-color        : rgba(219, 204, 252, 0.2);
+    border-radius           : 24px;
+    margin-top              : 80px;
+    margin-bottom           : 120px;
+
+}
+
+.distribution_header{
+
+   margin                   : 15px 4px;
+   text-align               : center;
+ 
+}
+
+.distribution_header a{
+
+    padding                 : 26px 49px;
+    display                 : inline-block;
+    border-radius           : 18px;
+    border-radius           : 18px;
+    font-family             : var(--secondary_font);
+    font-size               : 20px;
+    font-weight             : var(--semibold);
+    color                   : var(--main_color);
+    text-transform          : capitalize;
+    transition              : all linear 0.3s;
+ 
+}
+
+.distribution_header:hover a{
+
+    background-color        : var(--main_color);
+    color                   : #fff;
+
+}
+
+.distribution_right h2{
+
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 56px;
+    line-height             : 140%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+    
+}
+
+.distribution_right p{
+    
+    padding-top             : 24px;
+    padding-bottom          : 48px;
+    width                   : 575px;
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 18px;
+    line-height             : 180%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+
+}
+
+.distribution_right a{
+
+    padding                 : 20px 48px;
+    background-color        : var(--main_color);
+    display                 : inline-block;
+    border-radius           : 18px;
+    border-radius           : 18px;
+    font-family             : var(--secondary_font);
+    font-size               : 20px;
+    font-weight             : var(--semibold);
+    color                   : #fff;
+    text-transform          : capitalize;
+    margin-bottom           : 120px;
+
+}
+
+/* Plan part css */
+
+#plan{
+
+    padding                 : 120px 0;
+
+}
+
+.plan_heading h2{
+
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 56px;
+    line-height             : 140%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+}
+
+.plan_duration{
+
+    padding-top             : 30px;
+    padding-bottom          : 80px;
+    align-items             : center;
+    justify-content         : center;
+    
+}
+.plan_duration h4{
+
+   font-family              : var(--secondary_font);
+   font-weight              : var(--bold);
+   font-size                : 28px;
+   color                    : var(--secondary_color);
+   text-transform           : capitalize;
+   padding                  : 0 20px;
+
+}
+
+.plan_box{
+
+    background              : #fff;
+    border-radius           : 30px;
+    padding                 : 48px;
+    box-shadow              : 0px 30px 60px rgba(162, 169, 192, 0.5);
+    transition              : all linear 0.3s;
+    margin-top              : 80px;
+    margin-bottom           : 130px;
+
+}
+
+.plan_box_content h4{
+
+    padding-bottom          : 48px;
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 36px;
+    color                   : var(--primary_font);
+    text-transform          : capitalize;
+    transition              : all linear 0.3s;
+
+}
+
+.plan_spc {
+
+   justify-content          : space-between;
+   padding-bottom           : 28px;
+
+}
+
+.plan_spc i{
+
+    width                   : 20px;
+    height                  : 20px;
+
+}
+
+.plan_spc_inner_first p{
+
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 20px;
+    color                   : #545A64;
+    text-transform          : capitalize;
+    transition              : all linear 0.3s;
+}
+
+
+.plan_spc_inner_last p{
+
+    font-family             : var(--secondary_font);
+    font-weight             : var(--bold);
+    font-size               : 20px;
+    color                   : var(--main_color);
+    text-transform          : capitalize;
+    transition              : all linear 0.3s;
+
+}
+
+.plan_spc_btn button{
+
+    padding                 : 20px 48px;
+    border                  : none;
+    background              : rgba(132, 84, 245, 0.1);
+    border-radius           : 18px;
+    font-family             : var(--secondary_font);
+    font-size               : 20px;
+    font-weight             : var(--semibold);
+    color                   : var(--main_color);
+    text-transform          : capitalize;
+    transition              : all linear 0.3s;
+ 
+}
+
+.plan_box:hover{
+
+    background-color        : #181059;
+    margin-top              : 0;
+    margin-bottom           : 80px;
+
+}
+
+.plan_box:hover h4{
+
+    color                   : #F8FAFC;
+}
+
+.plan_box:hover i{
+
+    color                   : #fff;
+}
+
+.plan_box:hover p{
+
+    color                   : #F8FAFC;
+}
+
+.plan_box:hover button{
+
+    background              : var(--main_color);
+    color                   : #fff;
+}
+
+/* Build Plan part css */
+
+#build_plan{
+
+    margin-top              : 76px;
+    margin-bottom           : 102px;
+}
+
+.build_plan_heading h2{
+
+    padding-top             : 100px;
+    padding-bottom          : 90px;
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 56px;
+    line-height             : 140%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+}
+
+.build_box_img picture img{
+
+    width                   : 450px;
+    height                  : 520px;
+    border-radius           : 40px;
+    /* overflow                : hidden; */
+
+
+}
+
+.build_box_text p{
+
+    padding-top             : 20px;
+    width                   : 446px;
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 20px;
+    line-height             : 180%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+}
+
+.build_box_text h4{
+
+    padding-top             : 40px;
+    padding-bottom          : 14px;
+    font-family             : var(--primary_font);
+    font-weight             : var(--semibold);
+    font-size               : 36px;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+}
+
+.build_social_icon{
+
+    margin-top              : 14px;
+    margin-bottom           : 56px;
+
+}
+.build_social_icon a{
+
+   margin-right: 24px;
+
+}
+
+.left_angle{
+
+    width                   : 64px;
+    height                  : 64px;
+    border-radius           : 10px;
+    background              : #F3EEFE;
+    margin-right            : 24px;
+    position                : relative;
+
+}
+
+.left_angle:hover{
+
+    background-color        : var(--main_color);
+   
+}
+
+.left_angle:hover i{
+    
+    color                   : #fff;
+
+}
+
+.left_angle i{
+
+  top                       : 50%;  
+  left                      : 50%;
+  color                     : var(--main_color);
+  position                  : absolute;
+  transform                 : translateX(-50%) translateY(-50%);
+
+}
+
+.right_angle{
+
+    width                   : 64px;
+    height                  : 64px;
+    border-radius           : 10px;
+    background              : #F3EEFE;  
+    position                : relative;
+
+}
+
+.right_angle i{
+    
+    top                     : 50%;  
+    left                    : 50%;
+    color                   : var(--main_color);
+    position                : absolute;
+    transform               : translateX(-50%) translateY(-50%);
+  
+  }
+
+  .right_angle:hover{
+
+    background-color        : var(--main_color);
+   
+}
+
+.right_angle:hover i{
+
+    color                   : #fff;
+
+}
+
+  /* trial part css */
+
+  #trial{
+
+    padding                 : 140px 0;
+
+  }
+
+  .trial_heading h2{
+
+    font-family             : var(--primary_font);
+    font-weight             : var(--bold);
+    font-size               : 56px;
+    line-height             : 140%;
+    text-transform          : capitalize;
+
+  }
+
+  .trial_wrapper{
+
+    justify-content         : center;
+    padding-top             : 28px;
+    padding-bottom          : 48px;
+
+  }
+
+  .trial_wrapper p{
+
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 20px;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+    padding                 : 0 15px;
+
+  }
+
+  .trial_wrapper p:nth-child(2){
+
+   border-left              : 3px solid var(--secondary_color);
+   border-right             : 3px solid var(--secondary_color);
+
+  }
+
+  .input_trial input{
+
+    padding                 : 24px 0px 24px 24px;
+    background-color        : #F3EEFE;
+    width                   : 512px;
+    border-radius           : 18px;
+    border                  : none;
+
+  }
+
+  .input_trial button{
+
+    margin-left             : 78px;
+    padding                 : 20px 48px;
+    border                  : none;
+    background              : var(--main_color);
+    border-radius           : 18px;
+    font-family             : var(--secondary_font);
+    font-size               : 20px;
+    font-weight             : var(--semibold);
+    color                   : #fff;
+    text-transform          : capitalize;
+    
+  }
+
+  #email{
+
+    font-family             : var(--secondary_font);
+    font-weight             : var(--regular);
+    font-size               : 18px;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+
+  }
+
+  /* Footer part css */
+
+  footer{
+
+    padding-top             : 140px;
+    padding-bottom          : 57px;
+
+  }
+
+  .footer_left p{
+    padding-top             : 44px;
+    padding-right           : 60px;
+    font-family             : var(--secondary_font);
+    font-size               : 18px;
+    font-weight             : var(--regular);
+    line-height             : 180%;
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+}
+
+.footer_Features ul li{
+    padding                 : 15px 0;
+}
+
+.footer_Features h4{
+    padding-bottom          : 48px;
+   font-family              : var(--primary_font);
+   font-size                : 24px;
+   font-weight              : var(--semibold);
+   color                    : var(--secondary_color);;
+   text-transform           : capitalize;
+}
+.footer_Features ul li a{
+
+    font-family             : var(--secondary_font);
+   font-size                : 20px;
+   font-weight              : var(--semibold);
+   color                    : var(--secondary_color);;
+   text-transform           : capitalize;
+}
+
+.footer_products h4{
+    padding-bottom          : 48px;
+    font-family              : var(--primary_font);
+    font-size                : 24px;
+    font-weight              : var(--semibold);
+    color                    : var(--secondary_color);
+    text-transform           : capitalize;
+}
+
+.footer_products ul li{
+
+    padding                   : 15px 0;
+
+}
+
+.footer_products ul li a{
+    font-family             : var(--secondary_font);
+    font-size                : 20px;
+    font-weight              : var(--semibold);
+    color                     :var(--secondary_color);
+    text-transform           : capitalize;
+}
+
+.footer_privacy{
+    
+    text-align              : right;
+}
+
+.all_rights_reserved a {
+    font-family             : var(--secondary_font);
+    font-size               : 18px;
+    font-weight             : var(--regular);
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+}
+
+.footer_privacy a{
+   
+    display                 : inline-block;
+    font-family             : var(--secondary_font);
+    font-size               : 18px;
+    font-weight             : var(--regular);
+    color                   : var(--secondary_color);;
+    text-transform          : capitalize;
+}
+
+.footer_terms a{
+  
+    display                 : inline-block;
+    font-family             : var(--secondary_font);
+    font-size               : 18px;
+    font-weight             : var(--regular);
+    color                   : var(--secondary_color);
+    text-transform          : capitalize;
+}
+
